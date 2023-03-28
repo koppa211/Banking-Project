@@ -1,0 +1,470 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.container .content {
+  width: 100%;
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 40px;
+}
+.container .content .nav {
+  position: relative;
+}
+.container .content .nav_link {
+  color: #404041;
+  padding-right: 44px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.container .content .nav_market {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1.4px solid #DFDFDF;
+  border-radius: 100%;
+}
+.container .content .nav_logo {
+  padding-right: 180px;
+}
+
+.banking {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 55px;
+}
+.banking .bank .card_banking {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: -0.01em;
+  color: #222223;
+}
+.banking .bank .card_banking_meet {
+  padding-top: 40px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+}
+.banking .bank .btm_necard {
+  margin-top: 40px;
+}
+.banking .bank .btm_necard .btm_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: -30px;
+}
+.banking .bank .btm_necard .btm_card .card_link {
+  color: #222223;
+  padding-bottom: 25px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.subtitle_box {
+  margin-bottom: 129px;
+  width: 1200px;
+  height: 165px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.subtitle_box .subtitle_content .deals {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  color: #222223;
+}
+.subtitle_box .subtitle_content .deals_text {
+  padding-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  color: #5F5F64;
+}
+.subtitle_box .subtitle_content .subtitle_text {
+  padding-top: 17px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #17181A;
+}
+
+.group {
+  width: 100%;
+  height: 417px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(82, 192, 255, 0.25);
+}
+.group_block {
+  width: 100%;
+  max-width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.group_text {
+  color: #202020;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+}
+.group_subheader {
+  padding-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #5F5F64;
+}
+
+.customer {
+  padding-top: 130px;
+  min-height: 642px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.customer .customer_box {
+  width: 1090px;
+  height: 496px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.customer .customer_box .customer_title {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 0.01em;
+  color: #0D1111;
+}
+.customer .customer_box .customer_subtitle {
+  padding-top: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #767E7E;
+  text-align: center;
+}
+
+.lattice {
+  width: 1090px;
+  height: 209px;
+  padding-top: 92px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.lattice .lattice_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.4em;
+  color: #718176;
+}
+.lattice .lattice_block .lattice_items-1 {
+  padding: 69px 53px 118px 53px;
+  border-top: 1.2px solid #909C92;
+  border-bottom: 1.2px solid #909C92;
+}
+.lattice .lattice_block .lattice_items-2 {
+  padding: 69px 139px 118px 139px;
+  border: 1.2px solid #909C92;
+}
+.lattice .lattice_block .lattice_items-3 {
+  padding: 69px 89px 118px 89px;
+  border: 1.2px solid #909C92;
+}
+.lattice .lattice_block .lattice_items-4 {
+  padding: 69px 73px 118px 73px;
+  border-top: 1.2px solid #909C92;
+  border-bottom: 1.2px solid #909C92;
+}
+.lattice .lattice_block .lattice_number {
+  padding-top: 11px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.feature {
+  max-width: 1200px;
+  min-height: 507px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.feature .content {
+  position: relative;
+}
+.feature .content_bg {
+  width: 568px;
+  height: 507px;
+  background: #CFEDFF;
+}
+.feature .content_card {
+  position: absolute;
+  right: 95px;
+  top: 52px;
+}
+.feature .card_text {
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 62px;
+  letter-spacing: -0.01em;
+  color: #192430;
+}
+.feature .card_subheader {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #727272;
+}
+.feature .addition_box {
+  padding-top: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.feature .addition_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60px;
+  height: 58px;
+  background: #dfdfdf;
+  border-radius: 100%;
+}
+.feature .addition_header {
+  padding-left: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #222222;
+}
+.feature .addition_subheader {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+  color: #727272;
+  padding-left: 90px;
+}
+
+.subscribe {
+  height: 621px;
+  margin-top: 56px;
+  margin-bottom: 43px;
+  background: #41B3F4;
+}
+.subscribe_subheader {
+  margin-left: 140px;
+  padding-top: 144px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: #414449;
+}
+.subscribe_header {
+  padding-top: 100px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #000000;
+}
+.subscribe .line {
+  margin-left: 75px;
+  margin-right: 75px;
+  padding-top: 135px;
+}
+.subscribe .line_bg {
+  border: 6px solid #718176;
+  height: 133px;
+}
+.subscribe_card {
+  margin-left: 230px;
+  position: relative;
+}
+.subscribe_card_bg {
+  position: absolute;
+  top: 25px;
+  right: 70px;
+}
+.subscribe_card_card {
+  -webkit-transform: rotate(-63.44deg);
+          transform: rotate(-63.44deg);
+}
+.subscribe_btn {
+  position: absolute;
+  padding-top: 350px;
+  padding-right: 590px;
+}
+.subscribe_btn button {
+  width: 160px;
+  height: 58px;
+  font-weight: 500;
+  font-size: 16px;
+  background: #E15C19;
+  line-height: 16px;
+  color: #FFFFFF;
+  border-radius: 5%;
+  border: none;
+}
+
+.footer_footer {
+  width: 1081px;
+  height: 117px;
+}
+.footer_footer .footer_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer_footer .footer_link .icons_flex {
+  width: 90px;
+  height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+.footer_footer .footer_link .icons_flex img {
+  width: 15px;
+  height: 15px;
+}
+.footer_footer .footer_link_text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #404041;
+}
+.footer_footer .footer_link_descr {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #404041;
+}
+.footer_footer .footer_line {
+  padding-top: 83px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer_footer .footer_line_line {
+  width: 661px;
+  border-bottom: 1px solid rgb(86, 91, 88);
+  margin: 0 auto;
+}
+.footer_footer .footer_line .footer_autor {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: rgba(27, 27, 27, 0.35);
+}/*# sourceMappingURL=style.min.css.map */
